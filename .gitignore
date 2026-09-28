@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Datasets
+final_dataset.csv
+clean_dataset.csv
+archive.zip
+
+# External drift-testing dataset
+Balanced_IEC104_Train_Test_CSV_Files/
+Balanced_IEC104_Train_Test_CSV_Files.7z
+
+# Production/testing logs
+prediction_logs.csv
+
+# MLflow local database
+mlflow.db
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
